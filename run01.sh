@@ -1,1 +1,1 @@
-bash pipe/run_Telomere.sh 128 test
+bash pipe/run_Telomere.sh 128 contig
