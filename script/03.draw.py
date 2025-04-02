@@ -96,10 +96,7 @@ class TELOMERE:
             count += bin_DICT[binIDX]
 
         return count
-
-
-
-
+#####################################################################################
 
 from optparse import OptionParser
 import sys
@@ -111,8 +108,6 @@ if opt.prefix == None:
     print("Error! usage: 03.draw.py -p keumgang")
     sys.exit()
 
-
-
 prefix = opt.prefix
 
 chrSize_Ratio = 0.0000005
@@ -122,8 +117,6 @@ chromGap = 10
 #telomere
 windowSize = 10000
 slideSize = 1000
-
-
 #####################################################################################
 chromIDX_DICT = {}
 
